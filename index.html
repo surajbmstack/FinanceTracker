@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expense Tracker</title>
+    <title>Finance Tracker</title>
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
@@ -58,8 +58,8 @@
 </head>
 <body>
     <div class="container">
-        <h2>Expense Tracker</h2>
-        <form id="expenseForm">
+        <h2>Finance Tracker</h2>
+        <form id="financeForm">
             <input type="text" id="description" placeholder="Expense Description" required/><br>
             <select id="category" required>
                 <option value="">Select Category</option>
@@ -89,7 +89,7 @@
 
 
     <script>
-        const expenseForm = document.getElementById('expenseForm')
+        const financeForm = document.getElementById('financeForm')
         const expenseList = document.getElementById('expenseList')
 
         expenseForm.addEventListener('submit',function(event){
